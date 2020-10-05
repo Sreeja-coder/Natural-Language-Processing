@@ -1,0 +1,7 @@
+1 I	  2	nsubj
+2 prefer  0	root
+3 the 	  5	det
+4 morning 5	nmod
+5 flight  2	dobj
+6 through 7	case
+7 Denver  5	nmod

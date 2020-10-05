@@ -1,0 +1,24 @@
+SENTENCE : I prefer the morning flight through Denver
+GOLD DEPENDENCIES
+prefer 2-----nsubj--->I 1
+flight 5-----nmod--->morning 4
+flight 5-----det--->the 3
+Denver 7-----case--->through 6
+flight 5-----nmod--->Denver 7
+prefer 2-----dobj--->flight 5
+ROOT(0)----root--->prefer
+Final Dependency parse :
+Shift
+Shift
+Generating LeftArc _nsubj to produce relation:prefer 2-----nsubj--->I 1
+Shift
+Shift
+Shift
+Generating LeftArc _nmod to produce relation:flight 5-----nmod--->morning 4
+Generating LeftArc _det to produce relation:flight 5-----det--->the 3
+Shift
+Shift
+Generating LeftArc _case to produce relation:Denver 7-----case--->through 6
+Generating RightArc _nmod to produce relation:flight 5-----nmod--->Denver 7
+Generating LeftArc _dobj to produce relation:prefer 2-----dobj--->flight 5
+Generating RightArc _root to produce relation: ROOT(0)----root--->prefer

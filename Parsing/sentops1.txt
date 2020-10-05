@@ -1,0 +1,12 @@
+SENTENCE: Book me the morning flight
+OPERATORS
+Shift
+Shift
+RightArc_iobj
+Shift
+Shift
+Shift
+LeftArc_nmod
+LeftArc_det
+RightArc_dobj
+RightArc_root

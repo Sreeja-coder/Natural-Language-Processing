@@ -1,0 +1,16 @@
+SENTENCE: I prefer the morning flight through Denver
+OPERATORS
+Shift
+Shift
+LeftArc_nsubj
+Shift
+Shift
+Shift
+LeftArc_nmod
+LeftArc_det
+Shift
+Shift
+LeftArc_case
+RightArc_nmod
+RightArc_dobj
+RightArc_root

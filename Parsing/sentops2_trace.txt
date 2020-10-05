@@ -1,0 +1,23 @@
+SENTENCE: I prefer the morning flight through Denver, OPERATORS, Shift, Shift, LeftArc_nsubj, Shift, Shift, Shift, LeftArc_nmod, LeftArc_det, Shift, Shift, LeftArc_case, RightArc_nmod, RightArc_dobj, RightArc_root
+Shifting word  I ( 1 ) onto stack
+Shifting word  prefer ( 2 ) onto stack
+Applying LeftArc_nsubj to produce relation: prefer ( 2 ) ----- nsubj -----> I ( 1 )
+Shifting word  the ( 3 ) onto stack
+Shifting word  morning ( 4 ) onto stack
+Shifting word  flight ( 5 ) onto stack
+Applying LeftArc_nmod to produce relation: flight ( 5 ) ----- nmod -----> morning ( 4 )
+Applying LeftArc_det to produce relation: flight ( 5 ) ----- det -----> the ( 3 )
+Shifting word  through ( 6 ) onto stack
+Shifting word  Denver ( 7 ) onto stack
+Applying LeftArc_case to produce relation: Denver ( 7 ) ----- case -----> through ( 6 )
+Applying RightArc_nmod to produce relation: flight ( 5 ) ----- nmod ---->- Denver ( 7 )
+Applying RightArc_dobj to produce relation: prefer ( 2 ) ----- dobj ---->- flight ( 5 )
+Applying RightArc_root to produce relation: ROOT 0 ----- root -----> prefer
+Final Dependency parse :
+prefer, 2, -----, nsubj, ----->, I, 1
+flight, 5, -----, nmod, ----->, morning, 4
+flight, 5, -----, det, ----->, the, 3
+Denver, 7, -----, case, ----->, through, 6
+flight, 5, -----, nmod, ---->-, Denver, 7
+prefer, 2, -----, dobj, ---->-, flight, 5
+ROOT 0, -----, root, ----->, prefer

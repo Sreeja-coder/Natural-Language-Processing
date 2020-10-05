@@ -1,0 +1,17 @@
+SENTENCE: Book me the morning flight, OPERATORS, Shift, Shift, RightArc_iobj, Shift, Shift, Shift, LeftArc_nmod, LeftArc_det, RightArc_dobj, RightArc_root
+Shifting word  Book ( 1 ) onto stack
+Shifting word  me ( 2 ) onto stack
+Applying RightArc_iobj to produce relation: Book ( 1 ) ----- iobj ---->- me ( 2 )
+Shifting word  the ( 3 ) onto stack
+Shifting word  morning ( 4 ) onto stack
+Shifting word  flight ( 5 ) onto stack
+Applying LeftArc_nmod to produce relation: flight ( 5 ) ----- nmod -----> morning ( 4 )
+Applying LeftArc_det to produce relation: flight ( 5 ) ----- det -----> the ( 3 )
+Applying RightArc_dobj to produce relation: Book ( 1 ) ----- dobj ---->- flight ( 5 )
+Applying RightArc_root to produce relation: ROOT 0 ----- root -----> Book
+Final Dependency parse :
+Book, 1, -----, iobj, ---->-, me, 2
+flight, 5, -----, nmod, ----->, morning, 4
+flight, 5, -----, det, ----->, the, 3
+Book, 1, -----, dobj, ---->-, flight, 5
+ROOT 0, -----, root, ----->, Book
